@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #131419;
+}
+
+.timer {
+    width: 250px;
+    height: 130px;
+    position: relative;
+    background-color: #131419;
+    box-shadow: 0px 2px 17px 10px black;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.electronHours {
+    text-align: center;
+    color: #00FFFF;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 50px;
+}
+
+.clock,
+.minute,
+.second {
+  display: flex;
+}
+
+.electronHours p {
+    width: 27px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #131419;
+    margin-top: 8px;
+}
+
+#events {
+    width: 100%;
+    margin-right: 70px;
+    text-align: center;
+}
+
+
+#events button {
+    margin-right: 10px;
+    margin-top: 20px;
+    background-color: #131419;
+    color: #fff;
+    border-radius: 30px;
+    border:none;
+    margin-left: 10px;
+}
+
+#events button:nth-child(2){
+    margin-right: 20px;
+}
+
+#events button:hover {
+    background-color: #131419;
+    color: #00FFFF;
+}
+
+button i{
+    font-size: 38px;
+}
+
